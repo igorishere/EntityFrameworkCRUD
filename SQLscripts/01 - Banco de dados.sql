@@ -1,0 +1,10 @@
+IF NOT EXISTS(SELECT * FROM master.sys.databases WHERE NAME='EFCRUD')
+	BEGIN
+		USE [master] 
+		 
+		CREATE DATABASE EFCRUD 
+	END
+GO
+
+
+
